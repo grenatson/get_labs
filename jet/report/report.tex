@@ -34,13 +34,13 @@
                 \centering
                 \begin{minipage}{0.6\textwidth}
                     \centering
-                    \includegraphics[width=0.9\linewidth]{structure}
+                    \includegraphics[width=0.9\linewidth]{images/structure.png}
                     \caption{Структура струи}
                     \label{fig:structure}
                 \end{minipage}\hfill
                 \begin{minipage}{0.4\textwidth}
                     \centering
-                    \includegraphics[width=0.9\linewidth]{profile}
+                    \includegraphics[width=0.9\linewidth]{images/profile.png}
                     \caption{Схематическое изображение профиля скорости в струе}
                     \label{fig:profile}
                 \end{minipage}
@@ -49,7 +49,7 @@
             \newpage
 
             \begin{wrapfigure}{h}{0.4\textwidth}
-                \includegraphics[width=0.38\textwidth]{data_example}
+                \includegraphics[width=0.38\textwidth]{images/data_example}
                 \caption{Зависимость полученных результатов от расстояния до оси}
                 \label{fig:data}
             \end{wrapfigure}
@@ -77,12 +77,12 @@
             
             \begin{figure}
                 \centering
-                \includegraphics[width=0.8\textwidth]{setting}
+                \includegraphics[width=0.8\textwidth]{images/setting}
                 \caption{Экспериментальная установка}
                 \label{fig:setting}
             \end{figure}
 
-            В момент запуска программы на компьютере предполагается, что будет подаваться сигнал на исполнительное устройство, заставляя трубку Пито переместиться вдоль струи на нужное расстояние, затем программой будет считано подряд несколько показаний датчика давления, вычислена средняя величина и прозведена запись в файл. На следующем шаге описанная последовательность действий должна быть повторена. Таким образом можно провести все необходимые измерения вдоль струи.
+            В момент запуска программы на компьютере предполагается, что будет подаваться сигнал на исполнительное устройство, заставляя трубку Пито переместиться вдоль струи на нужное расстояние, затем программой будет считано подряд несколько показаний датчика давления, вычислена средняя величина и произведена запись в файл. На следующем шаге описанная последовательность действий должна быть повторена. Таким образом можно провести все необходимые измерения вдоль струи.
 
     \section{Ход работы}
         Перед началом работы было проведено знакомство с оборудованием и методами работы с ним: была просмотрена видео-инструкция по работе с внешним АЦП \emph{SPI}, были изучены функции из файлов \emph{jetFunctions.py} и \emph{jetMover.py} стартового набора.
@@ -107,7 +107,7 @@
             
             \begin{figure}[h]
                 \centering
-                \includegraphics[width=\textwidth]{calibration.jpg}
+                \includegraphics[width=\textwidth]{../plots/calibration.jpg}
                 \caption{Результаты калибровки}
                 \label{fig:calibration}
             \end{figure}
@@ -116,7 +116,7 @@
 
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width=\textwidth]{expence.jpg}
+                \includegraphics[width=\textwidth]{../plots/expence.jpg}
                 \caption{График скоростей с рассчитанными расходами}
                 \label{fig:expence}
             \end{figure}
