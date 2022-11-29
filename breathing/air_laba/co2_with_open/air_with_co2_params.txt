@@ -1,0 +1,2 @@
+25.3 temp
+69.0 hymidity
